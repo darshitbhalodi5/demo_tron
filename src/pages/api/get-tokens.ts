@@ -42,7 +42,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         balance: formattedBalance,
         rawBalance: rawBalance,
         priceUSD: priceUSD,
-        balanceUSD: balanceUSD.toFixed(2)
+        balanceUSD: balanceUSD.toFixed(10)
       };
     });
 
